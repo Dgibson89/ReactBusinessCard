@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1A1B21; 
+    font-family: 'Lora', serif;
+}
+
+/* Styling for Intro */
+
+.intro--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19.8125rem;    
+}
+
+.intro--img {
+    width: 19.8125rem;
+    height: 19.8125rem;
+    flex-shrink: 0; 
+    border-radius: 0.625rem 0.625rem 0rem 0rem; 
+}
+
+.intro--name {
+    color: #fff;
+    font-size: 1.5625rem; 
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.intro--title {
+    margin: 0;
+    color: #F3BF99;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: normal; 
+    }
+
+.intro--site > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.64rem;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
+
+.intro--btns {
+    display: flex;
+    gap: 0.5rem; 
+}
+
+.intro--email, .intro--linkedin {
+    width: 7.1875rem; 
+    padding: 0.5625rem 0.8125rem 0.5625rem 0.6875rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--gray-300, #D1D5DB);  
+    cursor: pointer;
+}
+
+.intro--email {
+    background: #fff;
+}
+
+.intro--linkedin {
+    color: #fff;
+    background: #5093E2;
+}
+
+/* Styling for About */
+
+.about--container {
+    color: #fff;  
+    width: 19.8125rem;
+    padding-left: 2.5rem;
+}
+
+.about--title {
+    margin-top: 3.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.about--paragraph {
+    margin: 0;
+    font-size: 0.64rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Styling for Interests */
+
+.interests--container {
+    color: #fff;  
+    width: 19.8125rem;
+    padding-left: 2.5rem;
+}
+
+.interests--title {
+    margin-top: 3.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.interests--paragraph {
+    margin: 0;
+    font-size: 0.64rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Styling for Footer */
+
+.footer--container {
+    width: 19.8125rem;
+    height: 4rem;
+    margin-top: 1.5rem;
+    flex-shrink: 0; 
+    border-radius: 0rem 0rem 0.625rem 0.625rem;
+    background: #161619; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #918E9B;
+}
+
+.footer--container > a {
+    width: 2rem;
+    cursor: pointer;
+    
+}
+
+.footer--container > a:hover {
+    color: #910011
+}
